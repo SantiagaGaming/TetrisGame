@@ -4,6 +4,14 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+/**
+ * PauseGame пауза игры через объявление Time.timeScale = 0, отображение окна паузы и выключние музыки.
+ * ResumeGame возобновление игры через Time.timeScale = 1, закрытие окна паузы и выключение музыки.
+ * ExitGame выход из сцены игры в меню.
+ * GameOver отображение окна окончания игры и выключние музыки.
+ * RestartLevel перезапуск уровня.
+ * MusicCheck проверка вкл / выкл музыки через получение значения от PlayerPrefs.
+ */
 
 public class GameController : MonoBehaviour
 {

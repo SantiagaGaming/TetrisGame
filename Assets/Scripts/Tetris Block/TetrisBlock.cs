@@ -1,5 +1,11 @@
 using UnityEngine;
-
+/**
+ * IsValidGridPos Проверка позиции фигуры в игровом экране.
+ * UpdateMatrixGrid Обновление игрового экрана.
+ * GameOverCheck Проверка окончания игры по позиции фигуры в оси Y.
+ * LoadLevelSpeed Загрузка скорости уровня из PlayerPrefs.
+ * CanPlayCheck возможность вращения и перемещения фигуры зависящее от Time.timeScale. Изменяется в GameController.
+ */
 public class TetrisBlock : MonoBehaviour
 {
     private float _lastFall = 0f;

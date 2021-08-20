@@ -2,6 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+/**
+ * PlayGame загрузка игрового уровня по клику на кнопку _button.
+ * OpenOptionsPanel открывает окно настроек по клику на кнопку _optionsButton.
+ * CloseOptionsPanel закрывает окно настроек и запись параметра в PlayerPrefs по клику на кнопку _backButton.
+ * ChangeDifficulty изменение скорости игры.
+ * ChangeMusic вкл / выкл музыки в игре и запись параметра в PlayerPrefs.
+ * GetStartingValue загрузка параметров из предыдущего сеанса посредством PlayerPrefs (скорость игры и музыка)
+ */
 
 public class MainController : MonoBehaviour
 {

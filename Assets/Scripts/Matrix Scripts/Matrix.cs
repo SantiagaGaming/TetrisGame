@@ -2,6 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+/**
+ * RoundVector округление Vecor2 до int.
+ * IsInsideBorder проверка фигуры по оси X (находится в экране, или за его пределами).
+ * DeleteRow удаление линии по оси X при полном заполнение фигурами.
+ * DecreseRow смещение заполненной части экрана по оси Y , при заполнение по оси X.
+ * DecreseRowAbove смещение заполненной части экрана по оси Y+1 , при заполнение по оси X.
+ * IsRowFull проверка заполенности по оси X.
+ * DeleteWholeRows проверка всего игрового поля.
+ */
 
 public class Matrix : MonoBehaviour
 {

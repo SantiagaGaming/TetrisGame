@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+/**
+ * SpawnRandom случайно выбирает фигуру из массива _tetrisObjects и отображает на игровом поле.
+ */
 
 public class Spawner : MonoBehaviour
 {

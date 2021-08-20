@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+/**
+ * UpdateScore Обновляет очки игрока черех подписку на событие ScoreChanged в классе Matrix.
+ */
 
 public class Player : MonoBehaviour
 {
